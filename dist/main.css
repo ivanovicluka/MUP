@@ -407,3 +407,103 @@ template {
 
 body {
   font-family: 'Open Sans'; }
+
+*::-moz-selection {
+  background: #FFCB46; }
+
+*::selection {
+  background: #FFCB46; }
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.general__section {
+  height: 537px;
+  background-image: url("/images/national-programs-background.jpg");
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+       background-size: cover; }
+
+.general__container {
+  max-width: 1100px;
+  padding: 20px; }
+
+.general__projects {
+  width: 450px;
+  float: left;
+  margin: 30px 0px 50px; }
+
+.general__content {
+  width: 500px;
+  float: right; }
+
+.general__projects-label {
+  color: white;
+  font-style: italic;
+  margin-top: 5px;
+  margin-bottom: 10px; }
+
+.general__project-container {
+  cursor: pointer;
+  width: 100%;
+  background-color: white;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  overflow: hidden; }
+
+.general__project {
+  overflow: hidden; }
+
+.general__project-info {
+  margin: 25px 30px 20px; }
+
+.general__icon {
+  float: left;
+  max-height: 50px;
+  max-width: 50px;
+  margin-right: 40px; }
+
+.general__icon-special {
+  margin-top: 10px; }
+
+.general__project-name {
+  color: #414142;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 50px;
+  height: 50px; }
+
+.general__title {
+  margin-top: 120px;
+  margin-bottom: 25px;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: .5px; }
+
+.general__text {
+  font-size: 16px;
+  line-height: 28px;
+  color: white; }
+
+@media (max-width: 1200px) {
+  .general__title {
+    font-size: 28px;
+    margin-top: 140px; }
+  .general__text {
+    font-size: 14px;
+    line-height: 24px; }
+  .general__project-name {
+    font-size: 14px; }
+  .general__icon {
+    max-height: 40px;
+    max-width: 40px;
+    margin-right: 25px; }
+  .general__project-info {
+    margin: 15px 20px 10px; }
+  .general__projects {
+    width: 370px; } }
