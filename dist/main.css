@@ -420,13 +420,13 @@ body {
   overflow: hidden; }
 
 .general__section {
-  height: 537px;
   background-image: url("/images/national-programs-background.jpg");
-  background-repeat: no-repeat;
   -moz-background-size: cover;
-       background-size: cover; }
+       background-size: cover;
+  background-position: center center; }
 
 .general__container {
+  width: 90%;
   max-width: 1100px;
   padding: 20px; }
 
@@ -507,3 +507,47 @@ body {
     margin: 15px 20px 10px; }
   .general__projects {
     width: 370px; } }
+
+@media (max-width: 1055px) {
+  .general__projects {
+    float: none;
+    margin: 50px auto;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+       -moz-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+  .general__content {
+    float: none;
+    width: 100%; }
+  .general__container {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column; }
+  .general__project-container {
+    width: 370px; }
+  .general__title {
+    margin-top: 35px; } }
+
+@media (max-width: 992px) {
+  .general__text {
+    font-size: 16px; } }
+
+@media (max-width: 544px) {
+  .general__projects {
+    margin: 40px auto; }
+  .general__container {
+    width: 100%;
+    margin: 0 auto; }
+  .general__section {
+    width: 100%; } }
