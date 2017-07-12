@@ -15,3 +15,7 @@ body {
 *::selection {
     background: $selection-color;
 }
+
+a {
+    text-decoration: none;
+}
