@@ -460,6 +460,13 @@ a {
 .general__project {
   overflow: hidden; }
 
+.general__project::hover {
+  background-color: #F2F2F2;
+  -webkit-transition-duration: .25s;
+     -moz-transition-duration: .25s;
+       -o-transition-duration: .25s;
+          transition-duration: .25s; }
+
 .general__project-info {
   margin: 25px 30px 20px; }
 
